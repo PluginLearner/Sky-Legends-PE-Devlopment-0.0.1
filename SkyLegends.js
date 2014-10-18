@@ -4,15 +4,15 @@ var items_opaque = "http://dl.dropbox.com/s/q7cxh4y0c3yyc61/items-opaque.png?dl=
 
 ModPE.overrideTexture("images/items-opaque.png", items_opaque);
 
-ModPE.setItem(400, "skull_creeper", 0, "Wood Crook");
+ModPE.setItem(400, "book_enchanted", 0, "Wood Crook");
 
-ModPE.setItem(401, "skull_skeleton", 1, "Stone Crook");
+ModPE.setItem(401, "rotten_flesh", 0, "Stone Crook");
 
-ModPE.setItem(402, "skull_zombie", 2, "Iron Crook");
+ModPE.setItem(402, "blaze_rod", 0, "Iron Crook");
 
-ModPE.setItem(403, "skull_wither", 3, "Gold Crook");
+ModPE.setItem(403, "ruby", 0, "Gold Crook");
 
-ModPe.setItem(404, "skull_steve", 4, "Diamond Crook");
+ModPe.setItem(404, "boat", 0, "Diamond Crook");
 
 Item.addShapedRecipe(400, 1, 0, [
 "ss "
