@@ -1,4 +1,9 @@
 var leaves = 18;
+
+var items_opaque = "http://dl.dropbox.com/s/q7cxh4y0c3yyc61/items-opaque.png?dl=0";
+
+ModPE.overrideTexture("images/items-opaque.png", items_opaque);
+
 ModPE.setItem(400, "skull_creeper", 0, "Wood Crook");
 
 ModPE.setItem(401, "skull_skeleton", 1, "Stone Crook");
@@ -146,6 +151,13 @@ Item.addShapedCraftRecipe(414, 1, 0, [
 
 Item.addFurnacerecipe(414, 0, 325);
 
+Item.addFurnaceRecipe(412, 0, 264);
+
+Item.addFurnaceRecipe(411, 0, 266);
+
+Item.addFurnaceRecipe(410, 0, 265);
+
+Item.addFurnaceRecipe(413, 0, 263);
 
 
 
